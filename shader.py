@@ -1,4 +1,4 @@
-from OpenGL.GL import *
+ from OpenGL.GL import *
 from OpenGL.GLUT import *
 from random import random
 import ctypes
