@@ -41,11 +41,14 @@
 
 - Пост-эффект по нажатию на стрелку вверх(объемный туман). Стрекла вниз - выключение. 
 
+<img width="599" alt="Снимок экрана 2021-02-13 в 13 45 58" src="https://user-images.githubusercontent.com/71877725/107848215-9ee91f00-6e02-11eb-9930-74593b25c8ec.png">
 
 ### Сцена 2: 
 
 - Полигональный источник освещения. 
 - Нечеткие отражения
+
+![capture (4)](https://user-images.githubusercontent.com/71877725/107848205-909b0300-6e02-11eb-9c1c-2753c01fd920.gif)
 
 Исходный код сцен лежит в Exam/scene
 
@@ -94,10 +97,14 @@ When running scripts, an error similar to step 3 may occur)
 
 - Post-effect by clicking on the up arrow (volumetric fog). Have Strela down and off.
 
+<img width="599" alt="Снимок экрана 2021-02-13 в 13 45 58" src="https://user-images.githubusercontent.com/71877725/107848215-9ee91f00-6e02-11eb-9930-74593b25c8ec.png">
 
 ### Scene 2:
 
 - Polygonal light source.
 - Fuzzy reflections
 
+![capture (4)](https://user-images.githubusercontent.com/71877725/107848205-909b0300-6e02-11eb-9c1c-2753c01fd920.gif)
+
 The source code of the scenes is in Exam/scene
+
