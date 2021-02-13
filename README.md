@@ -1,51 +1,103 @@
-Трассировка лучей Звездин Герман 305 группа
+# Трассировка лучей Звездин Герман 305 группа
 
 
-Порядок установки:
+## Порядок установки:
 
-1) На компьютере должна быть Visual Studio
+- На компьютере должна быть Visual Studio
 
-2) В папке Exam\python_installer лежит установщик python-3.9.0-amd64.exe его нужно запустить от имени администратора и поставить галочку Add Python to PATH
+- В папке Exam\python_installer лежит установщик python-3.9.0-amd64.exe его нужно запустить от имени администратора и поставить галочку Add Python to PATH
 
-2) После установки python-3.9.0-amd64.exe в той же папке лежит файл pip_installer.bat его нужно запустить от имени администратора. ОС может запретить Вам его запускать, это нужно пригнорироватьи и нажать на выполнить  в любом случае.
+- После установки python-3.9.0-amd64.exe в той же папке лежит файл pip_installer.bat его нужно запустить от имени администратора. ОС может запретить Вам его запускать, это нужно пригнорироватьи и нажать на выполнить  в любом случае.
 
-3)В папке Exam выполните либо instal_module_x32.bat - если у Вас 32-разрядная ОС, либо  instal_module_x64.bat - усли у Вас 64-разрядная ОС. 
+- В папке Exam выполните либо instal_module_x32.bat - если у Вас 32-разрядная ОС, либо  instal_module_x64.bat - усли у Вас 64-разрядная ОС. 
 
 При запуске скриптов может возникнуть ошибка аналогичная пункту 3) 
 
-4) Чтобы запустить первую сцену используйте скрипт run_scene1.bat.
+- Чтобы запустить первую сцену используйте скрипт run_scene1.bat.
 
-5)Чтобы запустить вторую сцену используйте скрипт run_scene2.bat 
+- Чтобы запустить вторую сцену используйте скрипт run_scene2.bat 
 При запуске скриптов может возникнуть ошибка аналогичная пункту 3) 
 
 
-Описание эффектов:
+## Описание эффектов:
 
-Сцена 1: 
+### Сцена 1: 
 
-1)Отбрасывание тени на другие объекты
+- Отбрасывание тени на другие объекты
 
-2)Зеркальные грани 
+- Зеркальные грани 
 
-3)Антиалисинг(по умолчанию выключен т.к очень сильно падает FPS описан в отдельной функции в фрагментном шейдере AntiA) 
+- Антиалисинг(по умолчанию выключен т.к очень сильно падает FPS описан в отдельной функции в фрагментном шейдере AntiA) 
 
-4)объекты с изменением связности (фиолетовые сферы и октаэдер) 
+- объекты с изменением связности (фиолетовые сферы и октаэдер) 
 
-5)CSG объект - зеленый октаэдер со сферой и кубом. 
+- CSG объект - зеленый октаэдер со сферой и кубом. 
 
-6)Нечетки тени 
+- Нечетки тени 
 
-7)Нетривиальная модель освещения Ambient occlusion
+- Нетривиальная модель освещения Ambient occlusion
 
-8)Освещение по Фонгу фиолетового объекта
+- Освещение по Фонгу фиолетового объекта
 
-9) Пост-эффект по нажатию на стрелку вверх(объемный туман). Стрекла вниз - выключение. 
+- Пост-эффект по нажатию на стрелку вверх(объемный туман). Стрекла вниз - выключение. 
 
 
-Сцена 2: 
+### Сцена 2: 
 
-1) Полигональный источник освещения. 
-2) Нечеткие отражения
+- Полигональный источник освещения. 
+- Нечеткие отражения
 
 Исходный код сцен лежит в Exam/scene
 
+# English version 
+
+# Ray tracing Zvezdin Herman 305 group
+
+
+## Installation procedure:
+
+- The computer must have Visual Studio installed
+
+- The installer is located in the Exam\python_installer folder python-3.9.0-amd64.exe you need to run it as an administrator and check the Add Python to PATH box
+
+- After installation python-3.9.0-amd64.exe in the same folder is the pip_installer file.bat you need to run it as an administrator. The OS can prevent you from running it, you need to ignore it and click on run anyway.
+
+- In the Exam folder, run either install_module_x32.bat - if you have a 32-bit OS, or install_module_x64. bat-if you have a 64-bit OS.
+
+When running scripts, an error similar to step 3 may occur)
+
+- To start the first scene, use the run_scene1.bat script.
+
+- To start the second scene, use the run_scene2 script.bat
+When running scripts, an error similar to step 3 may occur)
+
+
+## Description of the effects:
+
+### Scene 1:
+
+- Casting shadows on other objects
+
+- Mirror faces
+
+- Anti-aliasing(disabled by default because the FPS drops very much is described in a separate function in the Antia fragment shader)
+
+- objects with a change in connectivity (purple spheres and octahedron)
+
+- CSG object - green octahedron with sphere and cube.
+
+- Fuzzy shadows
+
+- Non-trivial Ambient occlusion lighting model
+
+- Lighting by the Phong of the purple object
+
+- Post-effect by clicking on the up arrow (volumetric fog). Have Strela down and off.
+
+
+### Scene 2:
+
+- Polygonal light source.
+- Fuzzy reflections
+
+The source code of the scenes is in Exam/scene
