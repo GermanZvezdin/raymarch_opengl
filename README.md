@@ -54,7 +54,7 @@
 
 # English version 
 
-# Ray tracing Zvezdin Herman 305 group
+# Ray tracing Zvezdin German 305 group
 
 
 ## Installation procedure:
